@@ -3,7 +3,7 @@
 ### Create VPC and Application Diagram using tool or paper.  And post on slack. 
 
 ## Create VPC
-CIDR: 172.16.X.0/24
+#### CIDR: 172.16.X.0/24
    - Subnet: 
       - 2 Public
       - 2 Private ( With Internet )
