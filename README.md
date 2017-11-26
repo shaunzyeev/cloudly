@@ -1,5 +1,7 @@
 # Deploy Wordpress Application Stack
 
+### Create VPC and Application Diagram using tool or paper.  And post on slack. 
+
 ## Create VPC
 CIDR: 172.16.X.0/24
    - Subnet: 
