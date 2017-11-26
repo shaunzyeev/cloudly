@@ -29,20 +29,20 @@
    - Setup Wordpress with DB details
    
 ## Create target groups
-    - <yourname>-cypaws
+   - <yourname>-cypaws
     
 ## Create ALB load balancer
-    - <your name>-cypaws
+   - <your name>-cypaws
 
 ## Add Loadbalancer name in DNS.
-    - Create Listner and add target group
-    - ALB name - blog.cypaws.com
+   - Create Listner and add target group
+   - ALB name - blog.cypaws.com
      
 ## Auto Scalling
-    - Create  Launch Configuration with Custome AMI 
-    - Create Autoscale group
-    - Scale by request count 
-    - Scale by CPU utilisation
+   - Create  Launch Configuration with Custome AMI 
+   - Create Autoscale group
+   - Scale by request count 
+   - Scale by CPU utilisation
 
 
 
