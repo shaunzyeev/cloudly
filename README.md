@@ -12,21 +12,21 @@
     - cypaws.local and attach to the you have created earlier. 
 
 ## Create RDS
-   Engine: Mysql
-   MultiAZ: False
-   Create db.<private hosted zone> domain name with route53
+   - Engine: Mysql
+   - MultiAZ: False
+   - Create db.<private hosted zone> domain name with route53
    
 ## Create an AMI with wordpress installed.
-   OS: Amazon AMI or Ubuntu 16.04
+   - OS: Amazon AMI or Ubuntu 16.04
 
 ## Create instance from you AMI
-   Setup Wordpress with DB details
+   - Setup Wordpress with DB details
    
 ## Create target groups
-    wordpress
+    - wordpress
     
 ## Create ALB load balancer
-    wordpress
+    - wordpress
 
 ## Add Loadbalancer name in DNS.
     - Create Listner and add target group
