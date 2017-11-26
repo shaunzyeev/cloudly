@@ -1,13 +1,15 @@
-# Project
+# Deploy Wordpress Application Stack
 
 ## Create VPC
+
     CIDR: 172.16.X.0/24
-    Subnet: 2 Public
+    - Subnet: 2 Public
             2 Private ( With Internet )
-    Security Group: 
+    - Security Group: 
         1. Private Access
         2. Public Access
 ## Create Private Hosted Zone
+    - cypaws.local and attach to the you have created earlier. 
 
 ## Create RDS
    Engine: Mysql
@@ -30,9 +32,11 @@
     - Create Listner and add target group
     - ALB name - blog.cypaws.com
      
-## Create  Launch Configuration 
-## Create Autoscale group
-## Scale by request count.
+## Auto Scalling
+    - Create  Launch Configuration with Custome AMI 
+    - Create Autoscale group
+    - Scale by request count 
+    - Scale by CPU utilisation
 
 
 
