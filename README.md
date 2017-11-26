@@ -3,14 +3,15 @@
 ## Create VPC
 
     CIDR: 172.16.X.0/24
-    -Subnet: 2 Public
-            2 Private ( With Internet )
-    -Security Group: 
-        1. Private Access
-        2. Public Access
+    - Subnet: 
+        - 2 Public
+        - 2 Private ( With Internet )
+    - Security Group: 
+        - Private Access
+        - Public Access
         
 ## Create Private Hosted Zone
-    -cypaws.local and attach to the you have created earlier. 
+    - cypaws.local and attach to the you have created earlier. 
     
 ## Create a jump server in the public zone
 
