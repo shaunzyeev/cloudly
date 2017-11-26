@@ -8,13 +8,17 @@
     - Security Group: 
         1. Private Access
         2. Public Access
+        
 ## Create Private Hosted Zone
     - cypaws.local and attach to the you have created earlier. 
+    
+## Create a jump server in the public zone
 
 ## Create RDS
    - Engine: Mysql
    - MultiAZ: False
    - Create db.<private hosted zone> domain name with route53
+   - RDS Must be in private zone
    
 ## Create an AMI with wordpress installed.
    - OS: Amazon AMI or Ubuntu 16.04
@@ -23,10 +27,10 @@
    - Setup Wordpress with DB details
    
 ## Create target groups
-    - wordpress
+    - <yourname>-cypaws
     
 ## Create ALB load balancer
-    - wordpress
+    - <your name>-cypaws
 
 ## Add Loadbalancer name in DNS.
     - Create Listner and add target group
