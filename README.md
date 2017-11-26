@@ -5,11 +5,12 @@
 ## Create VPC
 #### CIDR: 172.16.X.0/24
    - Subnet: 
-      - 2 Public
+      - 2 Public 
       - 2 Private ( With Internet )
    - Security Group: 
       - Private Access
       - Public Access
+   - It must be in high availability 
         
 ## Create Private Hosted Zone
    - cypaws.local and attach to the you have created earlier. 
