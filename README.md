@@ -27,6 +27,7 @@
 
 ## Create instance from you AMI
    - Setup Wordpress with DB details
+   - Instances must be on private subnet.
    
 ## Create target groups
    - <yourname>-cypaws
